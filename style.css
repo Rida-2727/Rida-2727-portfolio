@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Sections */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Projects */
+.project {
+    border: 1px solid #ccc;
+    margin: 15px;
+    padding: 15px;
+    display: inline-block;
+    width: 250px;
+}
+
+.project img {
+    width: 100%;
+}
+
+/* Gallery */
+.gallery img {
+    width: 150px;
+    margin: 10px;
+}
